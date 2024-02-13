@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AdminPostsComponent } from './admin/admin-posts/admin-posts.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AdminViewPostsComponent } from './admin/admin-view-posts/admin-view-posts.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { AdminViewPostsComponent } from './admin/admin-view-posts/admin-view-pos
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
